@@ -3,7 +3,7 @@
     <div class="container">
         <div class="post-wrapper">
             <h1>{{ $post->title }}</h1>
-            <img class="post__img" src="https://placehold.co/{{ $post->img }}" class="card-img-top" alt="post">
+            <img src="https://placehold.co/{{ $post->img }}" class="img-fluid" alt="Responsive image">
             <div class="d-flex " style="margin:10px 0;">
                 <span data-views='{{ $post->id }}' style="margin-right:15px;" id="views">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-eye"

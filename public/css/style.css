@@ -95,6 +95,10 @@ body {
     .card {
         margin: 0px 20px 20px 0;
     }
+    .wrapper {
+        flex-direction: column;
+    }
+
 }
 
 @media (max-width: 500px) {
