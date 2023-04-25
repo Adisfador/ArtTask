@@ -1,0 +1,105 @@
+body {
+    background-color: #f8f9fb;
+}
+/* nav */
+.nav-style {
+    display: flex;
+    justify-content: flex-end;
+}
+/* head */
+.head {
+    margin-bottom: 40px;
+    background-color: #e8ecee;
+}
+.head__wrapper {
+    padding: 40px 10px 60px;
+}
+.head__title {
+    font-weight: 800;
+}
+/* card */
+.card {
+    margin: 0px 40px 20px 0;
+}
+/* .card:nth-child(4n) {
+    margin: 0px 0px 10px 0;
+
+} */
+/* card */
+.card__wrapper img {
+    max-height: 500px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 70%;
+}
+.card {
+    max-width: 500px;
+}
+.wrapper {
+    display: flex;
+}
+/* tags */
+.tags {
+    flex: 30%;
+    padding: 10px 5px;
+}
+.tags__item {
+    margin-bottom: 20px;
+}
+/* pag */
+.pag {
+    display: flex;
+    justify-content: center;
+}
+/* btn */
+.btn__active {
+    color: var(--bs-btn-hover-color);
+    background-color: var(--bs-btn-hover-bg);
+    border-color: var(--bs-btn-hover-border-color);
+}
+
+#like {
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+#like:hover {
+    color: red;
+}
+.tag-active {
+    color: red;
+}
+.post-wrapper {
+    padding: 40px 10px;
+}
+/* footer */
+.footer-down {
+    background-color: #e8ecee;
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+}
+/* media */
+@media (max-width: 992px) {
+    /* head */
+    .nav-style {
+        display: block;
+        justify-content: flex-start;
+    }
+    /* card */
+    .card {
+        margin: 0px 20px 20px 0;
+    }
+}
+
+@media (max-width: 500px) {
+    /* card */
+    .card {
+        margin: 0px 10px 20px 0;
+    }
+}
