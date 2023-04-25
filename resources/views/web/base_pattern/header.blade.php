@@ -28,7 +28,7 @@
                                 <a class="nav-link {{$_SERVER['REQUEST_URI']==="/" ? "active":''}}" aria-current="page" href="/">Главная</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link {{ str_contains($_SERVER['REQUEST_URI'], '/articles') ? "active":''}} " href="/articles">Каталог статей</a>
+                                <a class="nav-link {{ str_contains($_SERVER['REQUEST_URI'], '/article') ? "active":''}} " href="/articles">Каталог статей</a>
                             </li>
                         </ul>
                     </div>
